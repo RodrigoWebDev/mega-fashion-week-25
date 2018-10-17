@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,kBAAK,CACH,UAAU,CAAE,GAAG,CACf,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa",
+"sources": ["../sass/hero.scss"],
+"names": [],
+"file": "style.css"
+}
