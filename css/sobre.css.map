@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACE,QAAC,CACC,UAAU,CAAC,MAAM,CAEnB,mBAAY,CACV,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,YAAY,CAC7B,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,IAAI,CAChB,UAAU,CAAE,MAAM,CAClB,cAAc,CAAE,SAAS,CACzB,WAAW,CAAE,MAAM,CACnB,2BAAO,CACL,SAAS,CAAE,IAAI,CAInB,SAAE,CACA,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,IAAI",
+"sources": ["../sass/sobre.scss"],
 "names": [],
 "file": "sobre.css"
 }

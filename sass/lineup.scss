@@ -1,0 +1,29 @@
+.line-up{
+  padding:40px 0;
+  text-transform: uppercase;
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    >div:nth-child(2){
+      margin-top: 30px;
+    }
+    >div:nth-child(3){
+      margin-top: 60px;
+    }
+    >div:nth-child(4){
+      margin-top: 90px;
+    }
+    >div:nth-child(5){
+      margin-top: 120px;
+    }
+  }
+
+  p,h4{
+    margin-bottom:0;
+  }
+
+  h4{
+    font-weight: bold;
+  }
+}

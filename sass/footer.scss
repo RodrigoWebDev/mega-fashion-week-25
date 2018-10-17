@@ -1,0 +1,13 @@
+footer{
+  background:#f4f4f4;
+  padding:10px 0;
+  font-size:12px;
+  .container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}

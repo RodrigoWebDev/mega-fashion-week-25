@@ -1,0 +1,30 @@
+.como-chegar{
+  padding:40px 0;
+  iframe{
+    width:100%;
+    padding-bottom: 70px;
+  }
+  .underline{
+    left: 57.3%;
+  }
+  
+  .container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    >div{
+      -ms-flex-preferred-size:33%;
+          flex-basis:33%;
+    }
+  }
+  
+  img{
+    display: block;
+    margin:0 auto;
+    margin-top: 60px;
+  }
+  
+  a{
+    color:$primary-color;
+  }
+}

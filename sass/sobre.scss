@@ -1,0 +1,111 @@
+.sobre{
+  p{
+    text-align:center;
+  }
+  .sobre__menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    #countdown-timer{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      div{
+        margin:0 30px;
+      }
+    }
+    .numero{
+      font-size: 80px;
+      display: block;
+      margin-bottom: -15px;
+    }
+    .dias{
+      color:$primary-color;
+    }
+  }
+
+}
+
+.desfile{
+  padding-bottom:20px;
+  .section-title{
+    h2{
+      text-align:left;
+      font-size: 50px;
+    }
+    .underline{
+      width: 90px;
+      height: 6px;
+      top:60px;
+      left: 40%;
+    }
+  }
+  h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+  p{
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
+.convidados{
+  padding-bottom:60px;
+  h2,h3{
+    display: inline;
+    text-transform: uppercase;
+  }
+
+  .underline{
+    width: 90px;
+    height: 6px;
+    top:60px;
+    left: 31%;
+  }
+
+  h2{
+    text-align:left;
+    font-size: 50px;
+    margin-right: 10px;
+  }
+}
+
+.sorteio{
+  background:$primary-color;
+  padding:40px 0;
+  position: relative;
+  height: 700px;
+  h2,h3{
+    display: inline;
+    text-transform: uppercase;
+  }
+  h2{
+    text-align:left;
+    font-size: 50px;
+    margin-right: 10px;
+  }
+  .underline{
+    width: 90px;
+    height: 6px;
+    top:60px;
+    left: 14.5%;
+    background: white;
+  }
+  img{
+    left: 0;
+    position: absolute;
+    width: 1100px;
+  }
+}

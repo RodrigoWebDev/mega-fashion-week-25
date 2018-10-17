@@ -1,0 +1,13 @@
+.cadastro{
+  background:$primary-color;
+  padding:30px 0;
+  input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-style: italic;
+    background:transparent;
+    border:1px solid black;
+  }
+}

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,YAAY,CACV,OAAO,CAAC,MAAM,CACd,mBAAM,CACJ,KAAK,CAAC,IAAI,CACV,cAAc,CAAE,IAAI,CAEtB,uBAAU,CACR,IAAI,CAAE,KAAK,CAGb,uBAAU,CACR,OAAO,CAAE,IAAI,CACb,2BAAI,CACF,UAAU,CAAC,GAAG,CAIlB,gBAAG,CACD,OAAO,CAAE,KAAK,CACd,MAAM,CAAC,MAAM,CACb,UAAU,CAAE,IAAI",
+"sources": ["../sass/como-chegar.scss"],
 "names": [],
 "file": "como-chegar.css"
 }
