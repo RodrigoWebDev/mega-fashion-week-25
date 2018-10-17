@@ -1,9 +1,45 @@
 .hero {
   .header {
     .nav {
-      background: red;
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      padding:10px 0;
+      .nav__logo{
+        max-width: 60px;
+        flex-basis: 20%;
+      }
+      .nav__logo:hover{
+        transition:.3s;
+        opacity:.7;
+      }
+      .nav__menu{
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-weight: bolder;
+        font-size: 15px;
+        margin: 0;
+        flex-basis: 65%;
+        justify-content: space-between;
+        li{
+          margin-right: 10px;
+          img{
+            width: 10px;
+            visibility: hidden;
+          }
+          a{
+            color: inherit;
+          }
+          a:hover{
+            text-decoration: none;
+          }
+        }
+      }
+      .button{
+        flex-basis: 18%;
+      }
     }
   }
 }
